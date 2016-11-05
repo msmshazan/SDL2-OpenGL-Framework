@@ -1,0 +1,280 @@
+ sdllayer
+
+ Timestamp is 581055bb (Wed Oct 26 12:35:31 2016)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000327aH .text                   CODE
+ 0002:00000000 00000104H .CRT$XCA                DATA
+ 0002:00000104 00000104H .CRT$XCAA               DATA
+ 0002:00000208 00000104H .CRT$XCZ                DATA
+ 0002:0000030c 00000104H .CRT$XIA                DATA
+ 0002:00000410 00000104H .CRT$XIAA               DATA
+ 0002:00000514 00000104H .CRT$XIC                DATA
+ 0002:00000618 00000104H .CRT$XIY                DATA
+ 0002:0000071c 00000104H .CRT$XIZ                DATA
+ 0002:00000820 0000038eH .rdata                  DATA
+ 0002:00000bb0 00000169H .rdata$debug            DATA
+ 0002:00000d20 00000104H .rdata$sxdata           DATA
+ 0002:00000e24 00000104H .rtc$IAA                DATA
+ 0002:00000f28 00000104H .rtc$IZZ                DATA
+ 0002:0000102c 00000104H .rtc$TAA                DATA
+ 0002:00001130 00000104H .rtc$TZZ                DATA
+ 0002:00001238 0000016eH .xdata$x                DATA
+ 0002:000013a6 00000000H .edata                  DATA
+ 0003:00000000 00000130H .data                   DATA
+ 0003:00000130 00000385H .bss                    DATA
+ 0004:00000000 00000050H .idata$2                DATA
+ 0004:00000050 00000014H .idata$3                DATA
+ 0004:00000064 0000022cH .idata$4                DATA
+ 0004:00000290 0000022cH .idata$5                DATA
+ 0004:000004bc 0000073fH .idata$6                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000030       _SDL_main                  00401030 f   sdllayer.obj
+ 0001:000007a0       ?GameUpdateAndRenderStub@@YAXPAUgame_offscreen_buffer@@@Z 004017a0 f   sdllayer.obj
+ 0001:000007b0       ?keysetup@@YAXPATSDL_Event@@PAUKeys@@@Z 004017b0 f   sdllayer.obj
+ 0001:000008e0       ?HandleEvent@@YA_NPATSDL_Event@@PAUKeys@@@Z 004018e0 f   sdllayer.obj
+ 0001:00000f90       _SDL_RWFromFile            00401f90 f   SDL2:SDL2.dll
+ 0001:00000f96       _SDL_GetPixelFormatName    00401f96 f   SDL2:SDL2.dll
+ 0001:00000f9c       _SDL_CreateRGBSurface      00401f9c f   SDL2:SDL2.dll
+ 0001:00000fa2       _SDL_LockSurface           00401fa2 f   SDL2:SDL2.dll
+ 0001:00000fa8       _SDL_UnlockSurface         00401fa8 f   SDL2:SDL2.dll
+ 0001:00000fae       _SDL_LoadBMP_RW            00401fae f   SDL2:SDL2.dll
+ 0001:00000fb4       _SDL_SaveBMP_RW            00401fb4 f   SDL2:SDL2.dll
+ 0001:00000fba       _SDL_GetCurrentDisplayMode 00401fba f   SDL2:SDL2.dll
+ 0001:00000fc0       _SDL_CreateWindow          00401fc0 f   SDL2:SDL2.dll
+ 0001:00000fc6       _SDL_GetWindowFromID       00401fc6 f   SDL2:SDL2.dll
+ 0001:00000fcc       _SDL_DestroyWindow         00401fcc f   SDL2:SDL2.dll
+ 0001:00000fd2       _SDL_GL_SetAttribute       00401fd2 f   SDL2:SDL2.dll
+ 0001:00000fd8       _SDL_GL_CreateContext      00401fd8 f   SDL2:SDL2.dll
+ 0001:00000fde       _SDL_GL_SwapWindow         00401fde f   SDL2:SDL2.dll
+ 0001:00000fe4       _SDL_GL_DeleteContext      00401fe4 f   SDL2:SDL2.dll
+ 0001:00000fea       _SDL_PollEvent             00401fea f   SDL2:SDL2.dll
+ 0001:00000ff0       _SDL_LoadObject            00401ff0 f   SDL2:SDL2.dll
+ 0001:00000ff6       _SDL_LoadFunction          00401ff6 f   SDL2:SDL2.dll
+ 0001:00000ffc       _SDL_UnloadObject          00401ffc f   SDL2:SDL2.dll
+ 0001:00001002       _SDL_GetPerformanceCounter 00402002 f   SDL2:SDL2.dll
+ 0001:00001008       _SDL_GetPerformanceFrequency 00402008 f   SDL2:SDL2.dll
+ 0001:0000100e       _SDL_Delay                 0040200e f   SDL2:SDL2.dll
+ 0001:00001014       _SDL_Init                  00402014 f   SDL2:SDL2.dll
+ 0001:0000101a       _SDL_Quit                  0040201a f   SDL2:SDL2.dll
+ 0001:00001020       _glBegin@4                 00402020 f   opengl32:OPENGL32.dll
+ 0001:00001026       _glBindTexture@8           00402026 f   opengl32:OPENGL32.dll
+ 0001:0000102c       _glEnable@4                0040202c f   opengl32:OPENGL32.dll
+ 0001:00001032       _glEnd@0                   00402032 f   opengl32:OPENGL32.dll
+ 0001:00001038       _glGenTextures@8           00402038 f   opengl32:OPENGL32.dll
+ 0001:0000103e       _glLoadIdentity@0          0040203e f   opengl32:OPENGL32.dll
+ 0001:00001044       _glMatrixMode@4            00402044 f   opengl32:OPENGL32.dll
+ 0001:0000104a       _glTexCoord2i@8            0040204a f   opengl32:OPENGL32.dll
+ 0001:00001050       _glTexImage2D@36           00402050 f   opengl32:OPENGL32.dll
+ 0001:00001056       _glTexParameteri@12        00402056 f   opengl32:OPENGL32.dll
+ 0001:0000105c       _glVertex2f@8              0040205c f   opengl32:OPENGL32.dll
+ 0001:00001062       _printf                    00402062 f   MSVCRT:MSVCR110.dll
+ 0001:00001068       @__security_check_cookie@4 00402068 f   MSVCRT:secchk.obj
+ 0001:00001184       _NtCurrentTeb              00402184 f i MSVCRT:crtexe.obj
+ 0001:00001336       _mainCRTStartup            00402336 f   MSVCRT:crtexe.obj
+ 0001:00001340       ___raise_securityfailure   00402340 f   MSVCRT:gs_report.obj
+ 0001:0000137d       ___report_gsfailure        0040237d f   MSVCRT:gs_report.obj
+ 0001:00001476       ___report_rangecheckfailure 00402476 f   MSVCRT:gs_report.obj
+ 0001:00001482       ___report_securityfailure  00402482 f   MSVCRT:gs_report.obj
+ 0001:00001550       ___report_securityfailureEx 00402550 f   MSVCRT:gs_report.obj
+ 0001:00001664       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 00402664 f   MSVCRT:unhandld.obj
+ 0001:000016a5       ___CxxSetUnhandledExceptionFilter 004026a5 f   MSVCRT:unhandld.obj
+ 0001:000016b4       __XcptFilter               004026b4 f   MSVCRT:MSVCR110.dll
+ 0001:000016ba       __amsg_exit                004026ba f   MSVCRT:MSVCR110.dll
+ 0001:000016c0       __setargv                  004026c0 f   MSVCRT:dllargv.obj
+ 0001:000016c4       ___getmainargs             004026c4 f   MSVCRT:MSVCR110.dll
+ 0001:000016ca       ___set_app_type            004026ca f   MSVCRT:MSVCR110.dll
+ 0001:000016d0       __FindPESection            004026d0 f   MSVCRT:pesect.obj
+ 0001:00001720       __IsNonwritableInCurrentImage 00402720 f   MSVCRT:pesect.obj
+ 0001:000017e0       __ValidateImageBase        004027e0 f   MSVCRT:pesect.obj
+ 0001:00001812       _exit                      00402812 f   MSVCRT:MSVCR110.dll
+ 0001:00001818       __exit                     00402818 f   MSVCRT:MSVCR110.dll
+ 0001:0000181e       __cexit                    0040281e f   MSVCRT:MSVCR110.dll
+ 0001:00001824       ___security_init_cookie    00402824 f   MSVCRT:gs_support.obj
+ 0001:000018be       __matherr                  004028be f   MSVCRT:merr.obj
+ 0001:000018c1       ___atonexitinit            004028c1 f   MSVCRT:atonexit.obj
+ 0001:000018fd       __onexit                   004028fd f   MSVCRT:atonexit.obj
+ 0001:000019a2       _atexit                    004029a2 f   MSVCRT:atonexit.obj
+ 0001:000019b7       __RTC_Initialize           004029b7 f   MSVCRT:initsect.obj
+ 0001:000019d7       __RTC_Terminate            004029d7 f   MSVCRT:initsect.obj
+ 0001:000019f8       __configthreadlocale       004029f8 f   MSVCRT:MSVCR110.dll
+ 0001:000019fe       __invoke_watson_if_error   004029fe f i MSVCRT:fp8.obj
+ 0001:00001a1e       __setdefaultprecision      00402a1e f   MSVCRT:fp8.obj
+ 0001:00001a46       ___setusermatherr          00402a46 f   MSVCRT:MSVCR110.dll
+ 0001:00001a4c       __initterm_e               00402a4c f   MSVCRT:MSVCR110.dll
+ 0001:00001a52       __initterm                 00402a52 f   MSVCRT:MSVCR110.dll
+ 0001:00001a60       __SEH_prolog4              00402a60 f   MSVCRT:sehprolg4.obj
+ 0001:00001aa5       __SEH_epilog4              00402aa5 f   MSVCRT:sehprolg4.obj
+ 0001:00001ab9       __except_handler4          00402ab9 f   MSVCRT:chandler4gs.obj
+ 0001:00001adc       __crt_debugger_hook        00402adc f   MSVCRT:MSVCR110.dll
+ 0001:00001ae2       ___crtUnhandledException   00402ae2 f   MSVCRT:MSVCR110.dll
+ 0001:00001ae8       ___crtTerminateProcess     00402ae8 f   MSVCRT:MSVCR110.dll
+ 0001:00001aee       ?terminate@@YAXXZ          00402aee f   MSVCRT:MSVCR110.dll
+ 0001:00001af4       ___crtSetUnhandledExceptionFilter 00402af4 f   MSVCRT:MSVCR110.dll
+ 0001:00001afa       __lock                     00402afa f   MSVCRT:MSVCR110.dll
+ 0001:00001b00       __unlock                   00402b00 f   MSVCRT:MSVCR110.dll
+ 0001:00001b06       __calloc_crt               00402b06 f   MSVCRT:MSVCR110.dll
+ 0001:00001b0c       ___dllonexit               00402b0c f   MSVCRT:MSVCR110.dll
+ 0001:00001b12       __invoke_watson            00402b12 f   MSVCRT:MSVCR110.dll
+ 0001:00001b18       __controlfp_s              00402b18 f   MSVCRT:MSVCR110.dll
+ 0001:00001b1e       __except_handler4_common   00402b1e f   MSVCRT:MSVCR110.dll
+ 0001:00001b24       _EncodePointer@4           00402b24 f   kernel32:KERNEL32.dll
+ 0001:00001b2a       _IsDebuggerPresent@0       00402b2a f   kernel32:KERNEL32.dll
+ 0001:00001b30       _IsProcessorFeaturePresent@4 00402b30 f   kernel32:KERNEL32.dll
+ 0001:00001b36       _QueryPerformanceCounter@4 00402b36 f   kernel32:KERNEL32.dll
+ 0001:00001b3c       _GetCurrentThreadId@0      00402b3c f   kernel32:KERNEL32.dll
+ 0001:00001b42       _GetSystemTimeAsFileTime@4 00402b42 f   kernel32:KERNEL32.dll
+ 0001:00001b48       _GetTickCount64@0          00402b48 f   kernel32:KERNEL32.dll
+ 0001:00001b4e       _DecodePointer@4           00402b4e f   kernel32:KERNEL32.dll
+ 0001:00001b60       _main                      00402b60 f   SDL2main:SDL_windows_main.obj
+ 0001:00001b90       _WinMain@16                00402b90 f   SDL2main:SDL_windows_main.obj
+ 0001:00001e86       _fprintf                   00402e86 f   MSVCRT:MSVCR110.dll
+ 0001:00001e8c       ___iob_func                00402e8c f   MSVCRT:MSVCR110.dll
+ 0001:00001e92       _GetCommandLineW@0         00402e92 f   kernel32:KERNEL32.dll
+ 0001:00001e98       _SDL_SetMainReady          00402e98 f   SDL2:SDL2.dll
+ 0001:00001e9e       _SDL_free                  00402e9e f   SDL2:SDL2.dll
+ 0001:00001ea4       _SDL_malloc                00402ea4 f   SDL2:SDL2.dll
+ 0001:00001eaa       _SDL_iconv_string          00402eaa f   SDL2:SDL2.dll
+ 0001:00001eb0       _SDL_wcslen                00402eb0 f   SDL2:SDL2.dll
+ 0001:00001eb6       _SDL_isspace               00402eb6 f   SDL2:SDL2.dll
+ 0002:00000000       ___xc_a                    00405000     MSVCRT:cinitexe.obj
+ 0002:00000208       ___xc_z                    00405208     MSVCRT:cinitexe.obj
+ 0002:0000030c       ___xi_a                    0040530c     MSVCRT:cinitexe.obj
+ 0002:0000071c       ___xi_z                    0040571c     MSVCRT:cinitexe.obj
+ 0002:0000099c       __real@00000000            0040599c     sdllayer.obj
+ 0002:000009a0       __real@3f800000            004059a0     sdllayer.obj
+ 0002:000009a8       __real@408f400000000000    004059a8     sdllayer.obj
+ 0002:000009b8       __real@412e848000000000    004059b8     sdllayer.obj
+ 0002:000009c4       __real@447a0000            004059c4     sdllayer.obj
+ 0002:000009c8       __real@bf800000            004059c8     sdllayer.obj
+ 0002:000009d4       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 004059d4     MSVCRT:unhandld.obj
+ 0002:000009d8       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 004059d8     MSVCRT:unhandld.obj
+ 0002:000009dc       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 004059dc     MSVCRT:unhandld.obj
+ 0002:000009e0       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 004059e0     MSVCRT:unhandld.obj
+ 0002:000009e4       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 004059e4     MSVCRT:unhandld.obj
+ 0002:000009e8       ??_C@_05EGJIMALK@UTF?98?$AA@ 004059e8     SDL2main:SDL_windows_main.obj
+ 0002:000009f0       ??_C@_0P@ICDEOIDM@UCS?92?9INTERNAL?$AA@ 004059f0     SDL2main:SDL_windows_main.obj
+ 0002:00000a00       ??_C@_0M@HFFOIJBL@Fatal?5Error?$AA@ 00405a00     SDL2main:SDL_windows_main.obj
+ 0002:00000a0c       ??_C@_0BJ@HFNMHALN@Out?5of?5memory?5?9?5aborting?$AA@ 00405a0c     SDL2main:SDL_windows_main.obj
+ 0002:00000a28       ??_C@_07KJFPOMFC@?$CFs?3?5?$CFs?6?$AA@ 00405a28     SDL2main:SDL_windows_main.obj
+ 0002:00000a30       __load_config_used         00405a30     MSVCRT:loadcfg.obj
+ 0002:00000d20       ___safe_se_handler_table   00405d20     <linker-defined>
+ 0002:00000e24       ___rtc_iaa                 00405e24     MSVCRT:initsect.obj
+ 0002:00000f28       ___rtc_izz                 00405f28     MSVCRT:initsect.obj
+ 0002:0000102c       ___rtc_taa                 0040602c     MSVCRT:initsect.obj
+ 0002:00001130       ___rtc_tzz                 00406130     MSVCRT:initsect.obj
+ 0003:00000000       ___security_cookie         00407000     MSVCRT:gs_cookie.obj
+ 0003:00000004       ___security_cookie_complement 00407004     MSVCRT:gs_cookie.obj
+ 0003:00000010       ___defaultmatherr          00407010     MSVCRT:merr.obj
+ 0003:00000020       ___globallocalestatus      00407020     MSVCRT:xthdloc.obj
+ 0003:00000024       ___native_dllmain_reason   00407024     MSVCRT:natstart.obj
+ 0003:00000470       __commode                  00407470     MSVCRT:xncommod.obj
+ 0003:00000474       __dowildcard               00407474     MSVCRT:wildcard.obj
+ 0003:00000478       __newmode                  00407478     MSVCRT:_newmode.obj
+ 0003:0000047c       __fmode                    0040747c     MSVCRT:xtxtmode.obj
+ 0003:00000480       ___native_startup_lock     00407480     <common>
+ 0003:00000490       ___native_startup_state    00407490     <common>
+ 0003:00000494       ___onexitend               00407494     <common>
+ 0003:000004a4       ___onexitbegin             004074a4     <common>
+ 0003:000004a8       ___dyn_tls_init_callback   004074a8     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_SDL2   00408000     SDL2:SDL2.dll
+ 0004:00000014       __IMPORT_DESCRIPTOR_OPENGL32 00408014     opengl32:OPENGL32.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_MSVCR110 00408028     MSVCRT:MSVCR110.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_KERNEL32 0040803c     kernel32:KERNEL32.dll
+ 0004:00000050       __NULL_IMPORT_DESCRIPTOR   00408050     SDL2:SDL2.dll
+ 0004:00000290       __imp__GetCommandLineW@0   00408290     kernel32:KERNEL32.dll
+ 0004:00000294       __imp__IsDebuggerPresent@0 00408294     kernel32:KERNEL32.dll
+ 0004:00000298       __imp__IsProcessorFeaturePresent@4 00408298     kernel32:KERNEL32.dll
+ 0004:0000029c       __imp__DecodePointer@4     0040829c     kernel32:KERNEL32.dll
+ 0004:000002a0       __imp__GetTickCount64@0    004082a0     kernel32:KERNEL32.dll
+ 0004:000002a4       __imp__GetSystemTimeAsFileTime@4 004082a4     kernel32:KERNEL32.dll
+ 0004:000002a8       __imp__GetCurrentThreadId@0 004082a8     kernel32:KERNEL32.dll
+ 0004:000002ac       __imp__QueryPerformanceCounter@4 004082ac     kernel32:KERNEL32.dll
+ 0004:000002b0       __imp__EncodePointer@4     004082b0     kernel32:KERNEL32.dll
+ 0004:000002b4       \177KERNEL32_NULL_THUNK_DATA 004082b4     kernel32:KERNEL32.dll
+ 0004:000002e4       __imp____iob_func          004082e4     MSVCRT:MSVCR110.dll
+ 0004:000002e8       __imp__fprintf             004082e8     MSVCRT:MSVCR110.dll
+ 0004:000002ec       __imp___except_handler4_common 004082ec     MSVCRT:MSVCR110.dll
+ 0004:000002f0       __imp___controlfp_s        004082f0     MSVCRT:MSVCR110.dll
+ 0004:000002f4       __imp___invoke_watson      004082f4     MSVCRT:MSVCR110.dll
+ 0004:000002f8       __imp___onexit             004082f8     MSVCRT:MSVCR110.dll
+ 0004:000002fc       __imp____dllonexit         004082fc     MSVCRT:MSVCR110.dll
+ 0004:00000300       __imp___calloc_crt         00408300     MSVCRT:MSVCR110.dll
+ 0004:00000304       __imp___unlock             00408304     MSVCRT:MSVCR110.dll
+ 0004:00000308       __imp___lock               00408308     MSVCRT:MSVCR110.dll
+ 0004:0000030c       __imp____crtSetUnhandledExceptionFilter 0040830c     MSVCRT:MSVCR110.dll
+ 0004:00000310       __imp_?terminate@@YAXXZ    00408310     MSVCRT:MSVCR110.dll
+ 0004:00000314       __imp____crtTerminateProcess 00408314     MSVCRT:MSVCR110.dll
+ 0004:00000318       __imp____crtUnhandledException 00408318     MSVCRT:MSVCR110.dll
+ 0004:0000031c       __imp___crt_debugger_hook  0040831c     MSVCRT:MSVCR110.dll
+ 0004:00000320       __imp___commode            00408320     MSVCRT:MSVCR110.dll
+ 0004:00000324       __imp___fmode              00408324     MSVCRT:MSVCR110.dll
+ 0004:00000328       __imp____initenv           00408328     MSVCRT:MSVCR110.dll
+ 0004:0000032c       __imp___initterm           0040832c     MSVCRT:MSVCR110.dll
+ 0004:00000330       __imp___initterm_e         00408330     MSVCRT:MSVCR110.dll
+ 0004:00000334       __imp____setusermatherr    00408334     MSVCRT:MSVCR110.dll
+ 0004:00000338       __imp___configthreadlocale 00408338     MSVCRT:MSVCR110.dll
+ 0004:0000033c       __imp___cexit              0040833c     MSVCRT:MSVCR110.dll
+ 0004:00000340       __imp___exit               00408340     MSVCRT:MSVCR110.dll
+ 0004:00000344       __imp____set_app_type      00408344     MSVCRT:MSVCR110.dll
+ 0004:00000348       __imp____getmainargs       00408348     MSVCRT:MSVCR110.dll
+ 0004:0000034c       __imp__printf              0040834c     MSVCRT:MSVCR110.dll
+ 0004:00000350       __imp___XcptFilter         00408350     MSVCRT:MSVCR110.dll
+ 0004:00000354       __imp___amsg_exit          00408354     MSVCRT:MSVCR110.dll
+ 0004:00000358       __imp__exit                00408358     MSVCRT:MSVCR110.dll
+ 0004:0000035c       \177MSVCR110_NULL_THUNK_DATA 0040835c     MSVCRT:MSVCR110.dll
+ 0004:000003a0       __imp__glVertex2f@8        004083a0     opengl32:OPENGL32.dll
+ 0004:000003a4       __imp__glTexParameteri@12  004083a4     opengl32:OPENGL32.dll
+ 0004:000003a8       __imp__glTexImage2D@36     004083a8     opengl32:OPENGL32.dll
+ 0004:000003ac       __imp__glTexCoord2i@8      004083ac     opengl32:OPENGL32.dll
+ 0004:000003b0       __imp__glMatrixMode@4      004083b0     opengl32:OPENGL32.dll
+ 0004:000003b4       __imp__glLoadIdentity@0    004083b4     opengl32:OPENGL32.dll
+ 0004:000003b8       __imp__glGenTextures@8     004083b8     opengl32:OPENGL32.dll
+ 0004:000003bc       __imp__glEnd@0             004083bc     opengl32:OPENGL32.dll
+ 0004:000003c0       __imp__glEnable@4          004083c0     opengl32:OPENGL32.dll
+ 0004:000003c4       __imp__glBindTexture@8     004083c4     opengl32:OPENGL32.dll
+ 0004:000003c8       __imp__glBegin@4           004083c8     opengl32:OPENGL32.dll
+ 0004:000003cc       \177OPENGL32_NULL_THUNK_DATA 004083cc     opengl32:OPENGL32.dll
+ 0004:00000400       __imp__SDL_Quit            00408400     SDL2:SDL2.dll
+ 0004:00000404       __imp__SDL_Init            00408404     SDL2:SDL2.dll
+ 0004:00000408       __imp__SDL_Delay           00408408     SDL2:SDL2.dll
+ 0004:0000040c       __imp__SDL_GetPerformanceFrequency 0040840c     SDL2:SDL2.dll
+ 0004:00000410       __imp__SDL_GetPerformanceCounter 00408410     SDL2:SDL2.dll
+ 0004:00000414       __imp__SDL_RWFromFile      00408414     SDL2:SDL2.dll
+ 0004:00000418       __imp__SDL_LoadFunction    00408418     SDL2:SDL2.dll
+ 0004:0000041c       __imp__SDL_LoadObject      0040841c     SDL2:SDL2.dll
+ 0004:00000420       __imp__SDL_PollEvent       00408420     SDL2:SDL2.dll
+ 0004:00000424       __imp__SDL_GL_DeleteContext 00408424     SDL2:SDL2.dll
+ 0004:00000428       __imp__SDL_GL_SwapWindow   00408428     SDL2:SDL2.dll
+ 0004:0000042c       __imp__SDL_GL_CreateContext 0040842c     SDL2:SDL2.dll
+ 0004:00000430       __imp__SDL_GL_SetAttribute 00408430     SDL2:SDL2.dll
+ 0004:00000434       __imp__SDL_DestroyWindow   00408434     SDL2:SDL2.dll
+ 0004:00000438       __imp__SDL_GetWindowFromID 00408438     SDL2:SDL2.dll
+ 0004:0000043c       __imp__SDL_CreateWindow    0040843c     SDL2:SDL2.dll
+ 0004:00000440       __imp__SDL_GetCurrentDisplayMode 00408440     SDL2:SDL2.dll
+ 0004:00000444       __imp__SDL_SaveBMP_RW      00408444     SDL2:SDL2.dll
+ 0004:00000448       __imp__SDL_LoadBMP_RW      00408448     SDL2:SDL2.dll
+ 0004:0000044c       __imp__SDL_UnlockSurface   0040844c     SDL2:SDL2.dll
+ 0004:00000450       __imp__SDL_LockSurface     00408450     SDL2:SDL2.dll
+ 0004:00000454       __imp__SDL_CreateRGBSurface 00408454     SDL2:SDL2.dll
+ 0004:00000458       __imp__SDL_GetPixelFormatName 00408458     SDL2:SDL2.dll
+ 0004:0000045c       __imp__SDL_UnloadObject    0040845c     SDL2:SDL2.dll
+ 0004:00000460       __imp__SDL_SetMainReady    00408460     SDL2:SDL2.dll
+ 0004:00000464       __imp__SDL_free            00408464     SDL2:SDL2.dll
+ 0004:00000468       __imp__SDL_malloc          00408468     SDL2:SDL2.dll
+ 0004:0000046c       __imp__SDL_iconv_string    0040846c     SDL2:SDL2.dll
+ 0004:00000470       __imp__SDL_wcslen          00408470     SDL2:SDL2.dll
+ 0004:00000474       __imp__SDL_isspace         00408474     SDL2:SDL2.dll
+ 0004:00000478       \177SDL2_NULL_THUNK_DATA   00408478     SDL2:SDL2.dll
+
+ entry point at        0001:00001336
+
